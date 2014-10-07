@@ -73,7 +73,7 @@ public class Main {
     }
 
     static WebDriver getDriver() {
-        FirefoxBinary binary = new FirefoxBinary(new File("/home/patnaj/firefox/firefox"));
+        FirefoxBinary binary = new FirefoxBinary(new File("/home/selen/firefox/firefox"));
         FirefoxProfile profile = new FirefoxProfile();
 
 //        if (Integer.parseInt(properties.getProperty("use_proxy")) == 1) {
